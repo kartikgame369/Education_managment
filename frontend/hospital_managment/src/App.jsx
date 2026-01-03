@@ -1,13 +1,11 @@
-import './App.css'
-import Body from './components/Body'
+import PatientForm from "./components/PatientForm";
 
 function App() {
-
   return (
-    <div>
-      <Body/>
+    <div className="min-h-screen bg-gray-100 p-6">
+      <PatientForm />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
