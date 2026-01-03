@@ -1,4 +1,5 @@
 import PatientForm from "./components/PatientForm";
+import "./app.css"
 
 function App() {
   return (
